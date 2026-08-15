@@ -1,0 +1,12 @@
+# rumdl configuration — https://rumdl.dev
+# Semantic line breaks: one sentence per line in prose.
+
+[global]
+# Profile README deliberately opens with a level 2 heading.
+disable = ["MD041"]
+
+[MD013]
+reflow = true
+reflow-mode = "sentence-per-line"
+# Sentence boundaries set the line breaks, so don't also cap columns.
+line-length = 0
