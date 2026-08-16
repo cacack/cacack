@@ -2,7 +2,7 @@
 # Semantic line breaks: one sentence per line in prose.
 
 [global]
-# Profile README deliberately opens with a level 2 heading.
+# Profile README deliberately opens with the brand header image, not a heading.
 disable = ["MD041"]
 
 [MD013]
